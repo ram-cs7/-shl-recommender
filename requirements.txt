@@ -1,0 +1,29 @@
+# Web framework
+fastapi>=0.111.0
+uvicorn[standard]>=0.30.1
+
+# Data validation
+pydantic>=2.7.4
+
+# LLM SDKs (Groq primary, Gemini fallback — both free tier)
+google-genai>=1.0.0
+groq>=1.0.0
+
+# Embeddings + vector search
+sentence-transformers>=3.0.1
+faiss-cpu>=1.8.0
+numpy>=1.26.4
+
+# Scraper
+requests>=2.32.3
+beautifulsoup4>=4.12.3
+lxml>=5.2.2          # faster BS4 parser
+
+# Eval / testing
+httpx>=0.27.0
+
+# Env file loading
+python-dotenv>=1.0.0
+
+# Optional: Playwright-based scraping fallback
+# playwright==1.44.0   # uncomment + run: playwright install chromium

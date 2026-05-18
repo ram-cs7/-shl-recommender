@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.Python
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+env/
+
+# Env vars
+.env
+
+# IDE
+.vscode/
+.idea/
+
+# Model cache (sentence-transformers downloads here)
+.cache/
+models/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Data — commit catalog.json but ignore large raw dumps
+data/*.html
+data/*.txt
+data/raw/
